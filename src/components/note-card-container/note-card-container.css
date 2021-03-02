@@ -1,0 +1,22 @@
+.note-update{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 50px;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all .4s ease;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.active{
+    transform: translateY(0%);
+    opacity: 1;
+}

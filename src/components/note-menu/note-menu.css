@@ -1,0 +1,143 @@
+.note-menu{
+    height: calc(100vh - 64px);
+}
+
+.note-menu-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.note-menu-wrapper .note-menu-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.note-menu-wrapper h2{
+    color: #000000de;
+    margin-bottom: 30px;
+}
+
+.note-menu-wrapper .note-form{
+    position: relative;
+    width: 60%;
+    height: 350px;
+    box-shadow: 0px 3px 11px #888;
+    padding: 30px 25px 20px 25px;
+    border-radius: 10px;
+}
+
+.note-menu-wrapper .note-form .note-form-input{
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   border: none;
+   outline: none;
+   padding: 0px 0px 10px 5px;
+   font-size: 18px;
+}
+
+.note-form .note-form-title #title{
+    background-color: inherit;
+}
+
+.note-form .note-form-menu #notes{
+    height: 100px;
+    resize: none;
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.note-menu-wrapper .note-form-title{
+    margin-bottom: 40px;
+}
+
+.note-menu-wrapper .note-form-menu {
+    margin-bottom: 30px;
+}
+
+.note-menu-wrapper .note-form-valid {
+    height: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(220, 20, 60);
+}
+
+.note-menu-wrapper .note-form-valid i {
+    margin-right: 5px;
+}
+
+
+.note-menu-wrapper .note-form-counter{
+    float:right;
+}
+
+.note-menu-wrapper .note-form-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-menu-wrapper .note-form-buttons .note-paint{
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    color:  rgb(97, 97, 97);
+    border: none;
+    outline: none;
+    background-color: inherit;
+    border-radius: 100%;
+    transition: all .3s ease;
+}
+
+.note-menu-wrapper .note-form-buttons .note-paint:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.note-menu-wrapper .note-form-buttons .note-submit {
+    width: 120px;
+    height: 48px;
+    color: #000000de;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: inherit;
+    overflow: hidden;
+    display: inline;
+    transition: all .3s ease;
+}
+
+.note-menu-wrapper .note-form-buttons .note-submit:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.note-menu-wrapper .note-saved{
+    position: absolute;
+    bottom: 30px;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all .4s ease;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.note-menu-wrapper .active{
+    transform: translateY(0%);
+    opacity: 1;
+}

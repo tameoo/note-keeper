@@ -1,0 +1,46 @@
+.color-picker{
+    box-shadow: 0 13px 27px -5px rgb(50 50 93 / 25%), 0 8px 16px -8px rgb(0 0 0 / 30%);
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    left: 30px;
+    bottom: 85px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.color-picker .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 3px solid #888;
+    transition: all .3s ease;
+}
+
+.color-picker #blue,#green,#yellow,#red{
+    border: none;
+}
+
+.color-picker #white:hover,#blue:hover,#green:hover,#yellow:hover,#red:hover{
+    transform: scale(1.2);
+}
+
+.color-picker #blue{
+    background-color: #b2ebf2;
+}
+.color-picker #green{
+    background-color: #ccff90;
+}
+.color-picker #yellow{
+    background-color: #ffff8d;
+}
+.color-picker #red{
+    background-color: #ff8a80;
+}
+

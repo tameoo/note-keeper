@@ -1,0 +1,24 @@
+#note-page{
+    height: calc(100vh - 64px);
+}
+
+.note-page-container{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-page-container h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.note-page-container p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color:cornflowerblue;
+}
